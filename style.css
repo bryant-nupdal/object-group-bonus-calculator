@@ -1,0 +1,38 @@
+:root {
+    --button-hover: green;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #303030;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+li{
+    list-style: none; 
+}
+p{
+    text-align: center;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 50px;
+    /*margin-left: 50%;*/
+}
+
+button:hover {
+    color: white;
+    background-color: var(--button-hover);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
